@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fae3c6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 auto 25px auto;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white; 
+    background-color: #f564A9; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: #fdf5fc;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #533B4D;
+    box-shadow: 0 0 5px rgba(241, 131, 219, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #533B4D;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f4aabd;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th,
+td
+.table-container {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #aaa; 
+}
+
+th {
+    background-color: #f4aabd;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fdf5fc;
+}
+.btn-edit {
+    background-color: #f564A9;
+    color: #000;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    width: 70px;    
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #f4aabd;
+}
+
+.btn-hapus {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    width: 70px;    
+    transition: 0.3s;
+}
+
+.btn-hapus:hover {
+    background-color: #f4aabd;
+}
+.link-auth {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link-auth a {
+    color: #f564A9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-auth a:hover {
+    color: #533B4D;
+}
+
+.user-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.user-bar form {
+    margin: 0;
+}
+
+button.btn-logout {
+    width: auto;
+    padding: 8px 18px;
+    font-size: 13px;
+}
